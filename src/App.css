@@ -1,0 +1,116 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+
+body {
+  background-color: #ffff;
+}
+
+header {
+  background-color: #282c34;
+  min-height: 10vh;
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  padding-bottom: 20px;
+}
+
+.navcss {
+  border-radius: 5px;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+
+.card-body:hover {
+  box-shadow: 5px 12px 30px 5px;
+}
+
+.product {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 10px;
+}
+.grid-container {
+
+  padding: 20px;
+  font-size: 20px;
+  text-align: center;
+}
+
+/* .card-img-top {
+  object-fit: cover;
+  width: auto;
+  height: 300px;
+}
+
+.card {
+  display: grid;
+  grid-template-columns: repeat(auto-fill);
+  grid-gap: 20px;
+} */
+
+.quack {
+  width: 5vw;
+  /* display: flex; */
+  padding-top: 10px;
+  border-radius: 5px;
+}
+
+.flex {
+  padding-right: 30px;
+  color: white;
+  /* padding-top: 20px;
+  padding-bottom: 20px; */
+
+}
+
+footer {
+  background-color: #282c34;
+}
+
+
+/* 
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 10px;
+}
+
+.grid-item {
+  padding: 20px;
+  text-align: center;
+} */
+
+.green {
+  color: green; 
+  text-decoration: none;
+}
+
+.nav-item{
+  color: white;
+  font-weight: normal;
+}
+
+.nav-item:hover{
+  color: #ed6f1c;
+  background-color: #282c34;
+}
+
+.grey {
+  font-size: large;
+  background-color: #282c34;
+  
+}
+
